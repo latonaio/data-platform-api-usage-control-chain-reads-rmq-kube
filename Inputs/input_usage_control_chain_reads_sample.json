@@ -1,0 +1,56 @@
+{
+  "connection_key": "request",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 201,
+  "service_label": "USAGE_CONTROL_CHAIN",
+  "api_type": "reads",
+  "UsageControl": {
+    "UsageControlChain": "UsageControlChain_Dummy_value_001",
+    "UsageControlLess": null,
+    "Perpetual": null,
+    "Rental": null,
+    "Duration": null,
+    "DurationUnit": "",
+    "ValidityStartDate": "",
+    "ValidityStartTime": "",
+    "ValidityEndDate": "",
+    "ValidityEndTime": "",
+    "DeleteAfterValidityEnd": null,
+    "ServiceLabelRestriction": [
+      ""
+    ],
+    "ApplicationRestriction": [],
+    "PurposeRestriction": [],
+    "BusinessPartnerRoleRestriction": [],
+    "LocationRestriction": {
+      "PostalCode": [
+        ""
+      ],
+      "LocalSubRegion": [],
+      "LocalRegion": [],
+      "Country": [
+        ""
+      ],
+      "GlobalRegion": [],
+      "TimeZone": []
+    },
+    "DataStateRestriction": [],
+    "NumberOfUsageRestriction": null,
+    "IPAddressRestriction": [],
+    "MACAddressRestriction": [],
+    "ModifyIsAllowed": null,
+    "LocalLoggingIsAllowed": null,
+    "RemoteNotificationIsAllowed": null,
+    "DistributeOnlyIfEncrypted": null,
+    "AttachPolicyWhenDistribute": null,
+    "IsMarkedForDeletion": false
+  },
+  "api_schema": "UsageControlChain",
+  "accepter": [
+    "UsageControlChain"
+  ]
+}
